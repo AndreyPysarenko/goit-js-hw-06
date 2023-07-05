@@ -16,6 +16,5 @@ function onFromSubmit(event) {
   }
   console.log(formData);
 
-  console.log(`Email: ${email}, Password: ${password}`);
   event.currentTarget.reset();
 }
